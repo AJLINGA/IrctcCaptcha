@@ -48,6 +48,8 @@ public class Captcha extends BaseClass {
 		
 		String str = img.doOCR(new File(path));
 		
+		// jhdsgfygdsfgsudyfgudysgfuysg
+		
 		System.out.println(str);
 		
 		String captcha = str.split("below")[1].replaceAll("[^a-zA-Z0-9]", "");
